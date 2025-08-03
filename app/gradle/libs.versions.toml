@@ -1,0 +1,9 @@
+[versions]
+# Adicione estas linhas (mantendo as que já existem)
+room = "2.7.2"
+
+[libraries]
+# Room
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
